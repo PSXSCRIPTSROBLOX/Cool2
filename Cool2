@@ -1,12 +1,12 @@
 if game.PlaceId == 6284583030 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Space Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "SpaceScriptsConfig"})
+local Window = OrionLib:MakeWindow({Name = "🌀Space Scripts🌀", HidePremium = false, SaveConfig = true, ConfigFolder = "SpaceScriptsConfig"})
 
 
 -- Space pet visual
 local SpaceTab = Window:MakeTab({
 	Name = "Space Pet Visual",
-	Icon = "rbxassetid://12422515522",
+	Icon = "rbxassetid://12545381604",
 	PremiumOnly = false
 })
 
