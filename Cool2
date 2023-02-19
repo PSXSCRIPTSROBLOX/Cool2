@@ -5,7 +5,7 @@ local Window = OrionLib:MakeWindow({Name = "Space Scripts", HidePremium = false,
 
 -- Space pet visual
 local SpaceTab = Window:MakeTab({
-	Name = "Pet Visual",
+	Name = "Space Pet Visual",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
