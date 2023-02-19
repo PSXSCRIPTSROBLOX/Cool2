@@ -3,6 +3,21 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Space Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "SpaceScriptsConfig"})
 
 
+-- Space pet visual
+local SpaceTab = Window:MakeTab({
+	Name = "Pet Visual",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+SpaceTab:AddButton({
+	Name = "Titanic Hubert",
+	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/NewVesty/main/PetChanger.lua'))()
+      		print("Titanic Hubert activated!")
+  	end    
+})
+
+
 
 
 -- pet visual script
