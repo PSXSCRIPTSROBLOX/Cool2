@@ -1,13 +1,17 @@
 if game.PlaceId == 6284583030 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "🌀Space Scripts🌀", HidePremium = false, SaveConfig = true, ConfigFolder = "SpaceScriptsConfig"})
+local Window = OrionLib:MakeWindow({Name = "✨Space Scripts✨", HidePremium = false, SaveConfig = true, ConfigFolder = "SpaceScriptsConfig"})
 
 
 -- Space pet visual
 local SpaceTab = Window:MakeTab({
 	Name = "Space Pet Visual",
-	Icon = "rbxassetid://12545381604",
+	Icon = "rbxassetid://977513049",
 	PremiumOnly = false
+})
+
+local Section = SpaceTab:AddSection({
+	Name = "Titanics"
 })
 
 SpaceTab:AddButton({
@@ -22,7 +26,7 @@ SpaceTab:AddButton({
 
 -- pet visual script
 local VisualTab = Window:MakeTab({
-	Name = "Pet Visual",
+	Name = "🐶Pet Visual",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -42,7 +46,7 @@ VisualTab:AddButton({
 -- trade scam
 
 local TradeTab = Window:MakeTab({
-	Name = "Trade Scam",
+	Name = "⭐Trade Scam",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -69,7 +73,7 @@ TradeTab:AddButton({
 -- dupe
 
 local DupeTab = Window:MakeTab({
-	Name = "Dupe",
+	Name = "💲Dupe",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -90,7 +94,7 @@ DupeTab:AddButton({
 
 
 local autofarmTab = Window:MakeTab({
-	Name = "Autofarm",
+	Name = "♻Autofarm",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
