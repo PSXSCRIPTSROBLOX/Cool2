@@ -45,14 +45,14 @@ local TradeTab = Window:MakeTab({
 
 TradeTab:AddButton({
 	Name = "Enable Trade Scam",
-	Callback = function() -- not work add new here soon
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXSCRIPTSROBLOX/TradeScam/main/TradeScam"))()
       		print("enabled trade scam!")
   	end    
 })
 
 TradeTab:AddButton({
 	Name = "Disable Trade Scam",
-	Callback = function() -- not work add new here soon
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXSCRIPTSROBLOX/TradeScam/main/TradeScam"))()
       		print("disabled trade scam!")
   	end    
 })
@@ -72,7 +72,7 @@ local DupeTab = Window:MakeTab({
 
 DupeTab:AddButton({
 	Name = "Start Dupe",
-	Callback = function() -- not work add new here soon
+	Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXSCRIPTSROBLOX/Dupe/main/Dupe"))()
       		print("Starting dupe!")
   	end    
 })
@@ -92,7 +92,7 @@ local autofarmTab = Window:MakeTab({
 })
 
 autofarmTab:AddButton({
-	Name = "Open Autofarm",
+	Name = "Autofarm",
 	Callback = function() loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
       		print("Autofarm activated!")
   	end    
