@@ -5,22 +5,14 @@ local Window = OrionLib:MakeWindow({Name = "✨Space Scripts✨", HidePremium = 
 
 -- Space pet visual
 local SpaceTab = Window:MakeTab({
-	Name = "Space Pet Visual",
-	Icon = "rbxassetid://977513049",
+	Name = "🌟Space Scripts",
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = SpaceTab:AddSection({
-	Name = "Titanics"
+	Name = "Coming Soon!"
 })
-
-SpaceTab:AddButton({
-	Name = "Titanic Hubert",
-	Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/NewVesty/main/PetChanger.lua'))()
-      		print("Titanic Hubert activated!")
-  	end    
-})
-
 
 
 
